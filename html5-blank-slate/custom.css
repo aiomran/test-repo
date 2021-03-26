@@ -1,0 +1,35 @@
+/*=Custom
+-----------------------------------------------------------*/
+
+/* CONTENT AREA */
+
+/* NAV BAR - MAIN & FOOTER */
+
+nav ul {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    list-style-type: none;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    margin: 0;
+    height: 2.8125rem;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-top: 1px solid #cacaca;
+    border-bottom: 1px solid #cacaca;
+  }
+  
+  nav li a {
+    color: #cacaca;
+  }
+  
+  .nav li a:hover {
+    color: #f55516;
+  }
+  
+  
+  
+  
